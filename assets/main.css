@@ -183,10 +183,28 @@ li {
     display: block;
     text-align: left;
   }
+}
+
+@media (max-width: 768px) {
   .tabcontent {
-    margin-top: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+		margin-right: 1.5rem;
+		margin-bottom: 0.25rem
+  }
+
+  .title {
+    font-size: 30px;
+    margin-left: 1.5rem;
+		margin-right: 1.5rem;
+		margin-bottom: 0.25rem;
+  }
+
+  #navbar a {
+    font-size: 14px;
+  }
+
+  img.responsive {
+    max-width: 100%;
+    height: auto;
   }
 }
