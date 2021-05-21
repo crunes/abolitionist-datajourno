@@ -1,0 +1,458 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<title>Abolition in Data Journalism</title>
+    	<link rel="stylesheet" href="assets/main.css" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Roboto&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<script src="scripts/scripts.js"></script>
+  </head>
+
+  <body>
+
+		<div class="topnav" id="navbar">
+			<a href="#home" class="tablinks" onclick="openTab(event, 'intro')">INTRO</a>
+		  <a href="#context" class="tablinks" onclick="openTab(event, 'context')">CONTEXT</a>
+			<a href="#praxis" class="tablinks" onclick="openTab(event, 'praxis')">PRAXIS</a>
+		  <a href="#resources" class="tablinks" onclick="openTab(event, 'resources')">RESOURCES</a>
+			<a href="#about" class="tablinks" onclick="openTab(event, 'about')">ABOUT</a>
+			<a href="javascript:void(0);" class="icon" onclick="resizeNav()">
+	    		<i class="fa fa-bars"></i>
+	  	</a>
+		</div>
+
+		<p class="title">Towards an Abolitionist Data Journalism Practice</p>
+
+		<div id="intro" class=tabcontent>
+	    <p class="intro">
+				This website is an ongoing project by <a href="#about" onclick="openTab(event, 'about')">Charmaine Runes</a>,
+				a Chicago-based developer, designer, and journalist. This micro-site
+				was born out of generous conversations with other (data) journalists, abolitionist
+				friends, as well as classmates for a course on prison industrial complex
+				abolition. It explores and builds on a question she has had for a while
+				and will likely think about for the rest of her life:
+			</p>
+			<p class="intro">
+				What might an abolitionist data journalism practice look like?
+			</p>
+			<br>
+			<hr>
+			<br>
+			<p>
+				But first, a few definitions:
+			</p>
+			<h4>What is the prison industrial complex?</h4>
+			<p>
+				This project uses Critical Resistance’s definition of the prison
+				industrial complex (PIC), which is “the overlapping interests of
+				government and industry that use surveillance, policing, and imprisonment
+				as solutions to economic, social and political problems.” The PIC
+				encompasses not only police departments and prisons, but also carceral
+				approaches to child welfare, schools, and social work. The PIC manifests
+				at every scale, from the interpersonal to the structural.
+			</p>
+			<h4>What is abolition?</h4>
+			<p>
+				Critical Resistance defines abolition as “a political vision with the
+				goal of eliminating imprisonment, policing, and surveillance and creating
+				lasting alternatives to punishment and imprisonment.” PIC abolition is
+				doing away with cages and the conditions that led to their creation and
+				use. It is both the horizon and the small actions we take every day to
+				build another world, the kind where no one is disposable and everyone
+				has what they need to grow and thrive.
+			</p>
+			<h4>What is data journalism?</h4>
+			<p>
+				Data journalism is simply journalism based on collecting, analyzing, and
+				interpreting data. Although the term is relatively new, journalists have
+				been using data for their reporting for a long time. It often (but not
+				always) involves visualizing data using charts, and using the data to
+				provide deeper context to a story and improve its accuracy. And while
+				data journalism is used in newsrooms all over the world, this project
+				mostly focuses on data journalism in the United States.
+			</p>
+		</div>
+
+		<div id="context" class=tabcontent>
+	    <h1>Context</h1>
+	    <h2>An incomplete history of data journalism</h2>
+			<p>
+				One of the earliest records of data journalism in the United States was
+				an 1849 story and chart by <a href="https://www.propublica.org/nerds/item/infographics-in-the-time-of-cholera?utm_content=buffer9314e&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer">the New York Tribune</a>, illustrating the number
+				of people who had died from cholera. In 1858, across the Atlantic,
+				<a href="https://www.theguardian.com/news/datablog/2010/aug/13/florence-nightingale-graphics">Florence Nightingale</a> presented her now-famous coxcomb diagrams to describe
+				the different causes of death for the British Army.
+			</p>
+			<br>
+			<img src="assets/images/cholera-deaths-1849.jpeg">
+			<p class="caption">
+				The New York Tribune's 1849 cholera visualization. (Image via ProPublica)
+			</p>
+			<br>
+			<p>
+				Clearly, data journalism is not new, but what distinguishes these
+				simple—but powerful—tabulations from modern-day data journalism is the
+				sheer speed and scale at which we can generate, access, and analyze data
+				today using computers. In 1952, <a href="https://www.poynter.org/reporting-editing/2014/today-in-media-history-in-1952-a-univac-computer-helped-cbs-news-predict-the-winner-of-the-presidential-election/#:~:text=On%20November%204%2C%201952%2C%20CBS,would%20win%20in%20a%20landslide.">CBS News</a> covered the presidential
+				election night using a Remington Rand UNIVAC computer, correctly
+				predicting Eisenhower’s landslide victory. And in 1967, <a href="https://investigatingpower.org/philip-meyer/">Philip Meyer</a>
+				(at the time a freelance journalist with the Detroit Free Press) used
+				survey research methods to report on the Detroit uprisings that summer
+				and later, the civil rights and anti-war movements. Meyer called this
+				computer-assisted approach to reporting “precision journalism”.
+			</p>
+			<p>
+				As computers grew faster and cheaper, more and more newsrooms began
+				using them for their reporting. In 1989, the Atlanta Journal-Constitution
+				received a Pulitzer Prize for its computer-assisted reporting on racial
+				disparities in home loan practices. That same year, the Missouri School
+				of Journalism and the Investigative Reporters and Editors Inc.
+				established the <a href="https://www.ire.org/about-ire/">National Institute for Computer-Assisted Reporting
+				(NICAR)</a> to support and train journalists to use data for their
+				investigative work. Today, large legacy newsrooms like the New York
+				Times have entire desks and news products like The Upshot dedicated to
+				collecting, cleaning, and making sense of massive amounts of data.
+			</p>
+
+			<br>
+			<h2>Data + journalism + the myth of objectivity</h2>
+
+			<p>
+				Names like computer-assisted reporting, precision journalism, and data
+				journalism might suggest that this kind of reporting is more accurate
+				and more objective than other forms. But is it?
+			</p>
+			<p class="highlight">
+				What does data have to do with journalistic objectivity?
+			</p>
+			<p>
+				In the 19th century, newspapers were often openly aligned with specific
+				political parties and issues, including enslavement and abolition. But
+				writing and running stories that exposed state violence and condemned
+				the country’s white supremacist status quo resulted in threats and
+				physical harm against reporters and editors that did so.
+			</p>
+			<p>
+				In 1829, <a href="https://www.biography.com/writer/david-walker">David
+				Walker</a>, a Black abolitionist and Boston agent for Freedom’s Journal
+				(the country’s first newspaper that was both Black-owned and managed),
+				wrote a pamphlet that used the Bible and the Declaration of Independence
+				to argue against enslavement and encourage other Black people to fight
+				for their freedom. Soon after
+				he distributed his pamphlets, there was a $1,000 reward for his death
+				and a $10,000 reward if he was captured alive. In 1837, <a href="https://www.britannica.com/biography/Elijah-P-Lovejoy">Elijah P. Lovejoy</a>,
+				a white Presbyterian editor, was killed in Alton, IL, for publishing
+				anti-enslavement literature in his newspaper.
+			</p>
+			<p>
+				But towards the start of the 20th century, newsrooms dropped their
+				political patrons in favor of advertisers. Relying on advertisements
+				meant prioritizing circulation and reaching as many people as possible.
+				A parallel force behind the push for nonpartisan media was <a href="https://time.com/5443351/journalism-objectivity-history/">the closing
+				or merging</a> of several newsrooms across the country in the 1920s, which
+				encouraged the remaining shops to appeal to the broadest swath of the
+				population.
+			</p>
+			<p>
+				In the 1940s, the mainstream journalist’s job was very similar to that
+				of a stenographer; they simply reported what powerful people said and
+				did, with little commentary or critique. But by the time the 1960s came
+				around, reporters covering then-President McCarthy’s outrageous claims
+				pushed back.
+			</p>
+			<p class="highlight">
+				It was not enough to report “the facts”; journalists and
+				newsrooms were also responsible for telling the truth about the facts.
+			</p>
+			<p>
+				The centrality of facts and the discipline of verification became of
+				utmost importance; so too was the idea that journalists be “objective”
+				and their reporting dispassionate and disinterested. Reporters were
+				expected to portray issues and events in a neutral way, regardless of
+				their personal feelings. This standard has also meant that reporters
+				with lived experience are discouraged or prevented from writing about
+				their communities because their reporting would be too biased. And
+				although many reporters and scholars have offered new paradigms for
+				journalistic truth-telling, several—particularly marginalized
+				journalists—have faced harsh consequences.
+			</p>
+			<p>
+				Lewis Raven Wallace, author of The View From Somewhere: Undoing the
+				Myth of Journalistic Objectivity, argues that “objectivity” has been
+				used to silence marginalized reporters (himself included), as far back
+				as data journalist <a href="https://www.vox.com/2015/7/16/8979771/ida-b-wells-lynching-data">Ida B. Wells-Barnett</a>. Wells-Barnett collected and
+				used data to expose and protest the horrors of lynching. In 1895, she
+				published a pamphlet called <a href="https://www.gutenberg.org/files/14977/14977-h/14977-h.htm">The Red Record: Tabulated Statistics and
+				Alleged Causes of Lynching in the United States</a>. She also wrote an
+				article, <a href="https://carceralfeminism.files.wordpress.com/2014/01/idabwells1.pdf?utm_content=bufferf9c37&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer">Lynching and the Excuse for it</a>, as a scathing response to Jane
+				Addams. Addams was against lynching, but she had argued that lynching
+				spectators might “honestly believe that that is the only successful
+				method of dealing with a certain class of crimes”—that is, Black men
+				charged with raping white women—and should be given the benefit of the
+				doubt.
+			</p>
+			<p>
+				But Addams’ generosity was based on the false assumption and widely-held
+				white public perception that the majority of those lynched had been
+				charged with that specific crime in the first place—and Wells-Barnett had
+				the facts to prove it. She drew up multiple tables tallying the number of
+				Black people who were lynched and the justification by year, from 1896 to
+				1900. The percent of Black people whom white mobs lynched for a rape
+				charge was the lowest category each year. In 1900, less than fifteen
+				percent of those lynched were charged with rape.
+			</p>
+			<p class="highlight">
+				“The table tells its own story, and shows how false is the excuse which
+				lynchers offer to justify their fiendishness,” Wells-Barnett concluded.
+			</p>
+			<p>
+				The idea that data talks is a popular one; so too is the idea that data
+				(especially quantitative data) is neutral, “objective”, and consequently,
+				authoritative. But Rob Kitchin, author of The Data Revolution: Big Data,
+				Open Data, Data Infrastructures & Their Consequences, provides the
+				following definition of data: “what we understand as data are actually…
+				those units of data that have been selected and harvested from the sum
+				of all potential data.”
+			</p>
+			<p class="highlight">
+				Data, he continues, are “inherently partial, selective, and representative,
+				and the distinguishing criteria used in their capture has consequence.”
+			</p>
+			<p>
+				In other words, data—be it qualitative or quantitative, structured or
+				unstructured, primary or secondary—is constructed. Datasets represent
+				not only categories, but also the specific choices of the dataset’s
+				creator. And at every stage of data journalism, reporters make similarly
+				subjective choices: what data to use, what variables to analyze, how to
+				“clean” a dataset, how to visualize a trend, what data points to highlight,
+				and what language they use to explain what the data mean.
+			</p>
+			<p>
+				Data doesn’t talk; the humans who make sense of the data do.
+			</p>
+
+			<br>
+			<h2>Data journalism + reimagining the world</h2>
+
+			<p>
+				Data and data journalism often tells us what is, but it can also tell us
+				what can be. Using data in investigative and watchdog journalism, for
+				example, can help expose harm and provide critical, accurate information
+				to those committed to and organizing for social change. Using data to
+				simulate and explain policy changes that free people in cages, house
+				people experiencing homelessness, educate children equitably, or
+				redistribute wealth can also help readers imagine alternative ways of
+				being in the world.
+			</p>
+			<p>
+				Seek out researchers and organizers experimenting with new ways to keep
+				their communities safe.
+			</p>
+			<p>
+				Talk to mutual aid groups about the funds they’ve collected and
+				distributed to their neighbors; ask them what impact looks like.
+			</p>
+			<p>
+				Show people that another world is, in fact, possible.
+			</p>
+		</div>
+
+		<div id="resources" class=tabcontent>
+	    <h1>Resources</h1>
+
+	    <h2>Articles</h2>
+			<ul>
+				<li><a href="https://www.newyorker.com/news/our-columnists/the-emerging-movement-for-police-and-prison-abolition">The Emerging Movement for Police and Prison Abolition</a>, by Keeanga-Yamahtta Taylor</li>
+				<li><a href="https://www.nytimes.com/2020/06/12/opinion/sunday/floyd-abolish-defund-police.html">Yes, We Mean Literally Abolish the Police</a>, by Mariame Kaba</li>
+				<li><a href="https://www.niemanlab.org/2020/12/defund-the-crime-beat/">Defund the Crime Beat</a>, by Tauhid Chappell and Mike Rispoli</li>
+				<li><a href="https://www.cjr.org/special_report/the-power-of-community-journalism.php">What Journalism Can Learn From Mutual Aid</a>, by Darryl Holliday</li>
+				<li><a href="https://designmuseumfoundation.org/abolish-the-cop-inside-your-designers-head/">Abolish the Cop Inside Your (Designer’s) Head</a>, by Sarah Fathallah and A.D. Sean Lewis</li>
+				<li><a href="https://www.cjr.org/criticism/activists-sources-suffering-respect.php">The Problem of ‘Casting Calls’ for Sources</a>, by Ko Bragg</li>
+			</ul>
+
+			<h2>Books</h2>
+			<ul>
+				<li><a href="https://www.lewispants.com/the-view-from-somewhere">The View From Somewhere: Undoing the Myth of Journalistic Objectivity</a>, by Lewis Raven Wallace</li>
+				<li><a href="https://nyupress.org/9781479837243/algorithms-of-oppression/">Algorithms of Oppression: How Search Engines Reinforce Racism</a>, by Safiya Umoja Noble</li>
+				<li><a href="https://www.ruhabenjamin.com/race-after-technology">Race After Technology: Abolitionist Tools for the New Jim Code</a>, by Ruha Benjamin</li>
+				<li><a href="https://mitpress.mit.edu/books/data-feminism">Data Feminism</a>, by Catherine D’Ignazio and Lauren F. Klein</li>
+				<li><a href="https://mitpress.mit.edu/books/design-justice">Design Justice: Community-Led Practices to Build the World We Need</a>, by Sasha Constanza-Chock</li>
+				<li><a href="https://www.haymarketbooks.org/books/1664-we-do-this-til-we-free-us">We Do This ‘Til We Free Us: Abolitionist Organizing and Transformative Justice</a>, by Mariame Kaba</li>
+				<li><a href="https://thenewpress.com/books/prison-by-any-other-name#:~:text=With%20a%20foreword%20by%20Michelle%20Alexander%2C%20Prison%20by%20Any%20Other,for%20truly%20alternative%20justice%20practices.">Prison by Any Other Name: The Harmful Consequences of Popular Reforms</a>, by Maya Schenwar and Victoria Law</li>
+				<li><a href="https://methods.sagepub.com/book/the-data-revolution">The Data Revolution: Big Data, Open Data, Data Infrastructures & Their Consequences</a>, by Rob Kitchin</li>
+			</ul>
+
+			<h2>Blogs and Websites</h2>
+			<ul>
+				<li><a href="https://medium.com/@rncrooks/what-we-mean-when-we-say-abolishbigdata2019-d030799ab22e">What We Mean When We Say #AbolishBigData2019</a></li>
+				<li><a href="https://datacapitalism.d4bl.org/">Data Capitalism and Algorithmic Racism</a>, by Data for Black Lives</li>
+			</ul>
+
+ 			<h2>Podcasts</h2>
+			<ul>
+				<li><a href="https://www.lewispants.com/">The View From Somewhere: A Podcast About Journalism with a Purpose</a></li>
+				<li>Data & Society, Episode 64: <a href="https://datasociety.net/library/abolish-big-data/">Abolish Big Data</a></li>
+			</ul>
+
+			<h2>Toolkits</h2>
+			<ul>
+				<li><a href="http://criticalresistance.org/resources/abolitionist-tools/">Abolitionist Tools, by Critical Resistance</a></li>
+				<li><a href="https://www.themarshallproject.org/2021/04/12/what-words-we-use-and-avoid-when-covering-people-and-incarceration">What Words We Use — and Avoid — When Covering People and Incarceration</a>, by the Marshall Project</li>
+				<li><a href="https://docs.google.com/document/d/19DfnpcOJvqL966-YFc9Q2wbKKbPVpJNFOvWuZWtLoEY/edit">Cops Off Campus Database Toolkit, by Abolition University</a></li>
+			</ul>
+		</div>
+
+		<div id="praxis" class=tabcontent>
+			<h1>Praxis</h1>
+	    <p class="intro">
+				Moving towards or building an abolitionist data journalism practice can
+				look different for different people. Some might have the ability to join
+				a news organization dedicated to <a href="https://niemanreports.org/articles/158195/">movement or solidarity journalism</a>, and
+				others might not.
+
+				But data journalism is first and foremost an activity
+				and skill, not a profession, and skills can be applied and shared in many
+				settings.
+			</p>
+			<p class="highlight">
+				Here are some ways to consider building that practice, for
+				yourself and in community:
+	    </p>
+
+			<br>
+			<hr>
+			<br>
+
+			<h2>Learn about prison industrial complex abolition</h2>
+			<p>
+				Read and listen to articles, books, blogs, and podcasts about PIC
+				abolition by abolitionists. Reflect on carceral assumptions and narratives
+				you’ve held on to yourself. Talk to others about what you’re learning and
+				what questions you still have.
+			</p>
+
+			<br>
+			<h2>Avoid narratives + language that legitimize the prison industrial complex</h2>
+			<p>
+				When using data to illustrate the harms of the PIC, use language that
+				recognizes the dignity of the people involved. Avoid narratives that
+				frame prisons or police as fix-able given enough financial resources
+				and time.
+			</p>
+
+			<br>
+			<h2>Understand what + who your data represent</h2>
+			<p>
+				Crime data, like the kind the City of Chicago releases, is easy to
+				access. The City website notes that it pulls 90 days’ worth of data
+				from the Chicago Police Department's (CPD) CLEAR (Citizen Law Enforcement
+				Analysis and Reporting) system. CPD includes the following disclaimer:
+			</p>
+			<p class="long-quote">
+				These crimes are based upon preliminary information supplied to the
+				Police Department by the reporting parties and have not been verified.
+				The preliminary crime classifications may be changed at a later date
+				based upon additional investigation and there is always the possibility
+				of mechanical or human error. Additionally, crimes not reported within
+				97 days of occurrence would be excluded from this dataset. Therefore,
+				the Chicago Police Department does not guarantee (either expressed or
+				implied) the accuracy, completeness, timeliness, or correct sequencing
+				of the information and the information should not be used for comparison
+				purposes over time. The Chicago Police Department will not be responsible
+				for any error or omission, or for the use of, or the results obtained
+				from the use of this information.
+			</p>
+			<p>
+				Some questions you can ask before you work with a dataset:
+			</p>
+			<ul>
+				<li>Who collected these data, and for what purpose?</li>
+				<li>What makes this a legitimate source?</li>
+				<li>What critical questions do this data NOT answer? What data are missing?</li>
+			</ul>
+			<p>
+				For example, if you’re working with murder registry data, ask yourself,
+				“Do these data represent murderers, or do they represent people who have
+				been convicted of murder?”
+			</p>
+			<p>
+				And remember, data about an issue is not inherently more valuable,
+				trustworthy, or true than information gleaned through interviews with
+				those directly impacted or personal experience.
+			</p>
+
+			<br>
+			<h2>Connect the dots</h2>
+			<p>
+				In her 1982 Malcolm X weekend address at Harvard University, Audre
+				Lorde said:
+			</p>
+			<p class="highlight">
+				“There is no such thing as a single-issue struggle, because
+				we do not live single-issue lives.”
+			</p>
+			<p>
+				Similarly, there is no such thing as
+				a single-issue story, and an abolitionist data journalism practice should
+				reflect that.
+			</p>
+			<p>
+				The #NoCopAcademy campaign in Chicago, IL, for example, was more than
+				just a fight to prevent the construction of a $90 million police training
+				academy on the West Side. It was also about historical disinvestment by
+				the city to West Side neighborhoods, as well as the Black and brown youth
+				building power and community in spite of it. As Benji Hart, Chicago-based
+				organizer, put it, “The police beat is the housing beat is the education
+				beat.”
+			</p>
+
+			<br>
+			<h2>Share skills + resources beyond your profession</h2>
+			<p>
+				If you are not in a position to or decide not to make your living from
+				movement journalism, build relationships with others who you can continue
+				to learn from. Organize within your newsroom. Connect with organizers and
+				campaigns and see how you can support their work.
+			</p>
+			<p>
+				As Darryl Holliday wrote for the Columbia Journalism Review:
+			</p>
+			<p class="highlight">
+				“A healthy
+				and democratic future demands that the skills journalists possess be
+				distributed among many—not bestowed on a select few. The journalists we
+				need today are not heroic observers of crisis—they are conveners,
+				facilitators, organizers, educators, on-demand investigators, and
+				community builders. Most of all, they strengthen the systems that make
+				communities resilient.”
+			</p>
+		</div>
+
+		<div id="about" class=tabcontent>
+	    <h1>About</h1>
+	    <p class="intro">
+				Charmaine Runes is a Chicago-based developer, designer, and journalist.
+				She codes for the people and believes that another world is possible.
+	    </p>
+			<hr>
+			<p>
+				Charmaine is currently finishing up her Master’s in Computational
+				Analysis and Public Policy at the University of Chicago. She is a
+				freelance data/visuals reporter and director of fact-checking for South
+				Side Weekly, and she will start at the Star Tribune in Minneapolis as a
+				digital designer later this summer.
+			</p>
+			<p>
+				Interested in connecting? You can find her on Twitter at
+				<a href="https://twitter.com/maerunes">@maerunes</a> or on GitHub at
+				<a href="https://github.com/crunes">@crunes</a>.
+			</p>
+		</div>
+
+
+  </body>
+</html>
